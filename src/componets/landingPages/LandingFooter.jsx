@@ -8,7 +8,7 @@ import { AiFillInstagram } from "react-icons/ai";
 
 const LandingFooter = () => {
   return (
-    <div className="py-14 bg-[#2e2e45]">
+    <div className="py-14 bg-black/50">
       <div className="wrapper text-white">
         <div className="flex md:flex-row flex-col justify-between gap-10">
           <div className="flex flex-col items-center">

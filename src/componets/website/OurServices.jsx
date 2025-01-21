@@ -133,7 +133,7 @@ const OurServices = ({ length }) => {
                   <div className="rounded-lg bg-white min-h-[31rem] sm:min-h-[23.25rem] hover:bg-custom-gradient p-5 flex flex-col justify-between items-start text-start h-full gap-4">
                     <div className="flex flex-col gap-3">
                       <div className="flex items-center gap-4 mb-4">
-                        <div className="flex items-center justify-center w-12 h-12 rounded-full bg-orange-100 text-orange-600 group-hover:bg-orange-600 group-hover:text-white  transition-colors duration-300">
+                        <div className="flex items-center justify-center w-12 h-12 rounded-full bg-blue-100 text-primary group-hover:bg-primary group-hover:text-blue-100  transition-colors duration-300">
                           {/* <BiBrain className="w-6 h-6" /> */}
                           {service.img}
                         </div>
