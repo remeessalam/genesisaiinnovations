@@ -3,6 +3,8 @@ import { BsFacebook, BsLinkedin, BsTwitter, BsYoutube } from "react-icons/bs";
 import { Link as ScrollLink } from "react-scroll";
 import { companyDetails, logoImg } from "../../constant";
 import { Link } from "react-router-dom";
+import { FaXTwitter } from "react-icons/fa6";
+import { AiFillInstagram } from "react-icons/ai";
 
 const LandingFooter = () => {
   return (
@@ -93,17 +95,17 @@ const LandingFooter = () => {
         <div className="pt-4 mt-7 border-t text-white border-primary w-full">
           <div className="flex justify-center gap-5 w-full">
             <div className="flex gap-5 items-center mt-5">
-              <Link>
-                <BsFacebook className="text-xl text-white hover:text-primary transition-all duration-300" />
+              <Link to={companyDetails.facebook}>
+                <BsFacebook className="text-xl text-gray-200 hover:text-primary transition-all duration-300" />
               </Link>
-              <Link>
-                <BsTwitter className="text-xl text-white hover:text-primary transition-all duration-300" />
+              <Link to={companyDetails.x}>
+                <FaXTwitter className="text-xl text-gray-200 hover:text-primary transition-all duration-300" />
               </Link>
-              <Link>
-                <BsLinkedin className="text-xl text-white hover:text-primary transition-all duration-300" />
+              <Link to={companyDetails.linkedin}>
+                <BsLinkedin className="text-xl text-gray-200 hover:text-primary transition-all duration-300" />
               </Link>
-              <Link>
-                <BsYoutube className="text-xl text-white hover:text-primary transition-all duration-300" />
+              <Link to={companyDetails.instgram}>
+                <AiFillInstagram className="text-xl text-gray-200 hover:text-primary transition-all duration-300" />
               </Link>
             </div>
           </div>

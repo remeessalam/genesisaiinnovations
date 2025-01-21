@@ -4,10 +4,11 @@ import { Link, useNavigate } from "react-router-dom";
 import { FaPhone } from "react-icons/fa";
 import { companyDetails } from "../../constant";
 import { IoMail } from "react-icons/io5";
-import { FaLocationDot } from "react-icons/fa6";
+import { FaLocationDot, FaXTwitter } from "react-icons/fa6";
 import { BsFacebook, BsLinkedin, BsTwitter, BsYoutube } from "react-icons/bs";
 import { useForm } from "react-hook-form";
 import toast from "react-hot-toast";
+import { AiFillInstagram } from "react-icons/ai";
 const MapComponent = lazy(() => import("../../componets/website/MapComponent"));
 
 const ContactUs = () => {
@@ -216,17 +217,29 @@ const ContactUs = () => {
         <div className="flex lg:col-span-2 gap-5 items-center text-primarytextcolor mb-1 mx-auto">
           <p>Follow Us On:</p>
           <div className="flex items-center gap-3">
-            <Link className="group w-[2.5rem] h-[2.5rem] rounded-full border-primary border flex justify-center items-center">
+            <Link
+              to={companyDetails.facebook}
+              className="group w-[2.5rem] h-[2.5rem] rounded-full border-primary border flex justify-center items-center"
+            >
               <BsFacebook className="text-xl text-primarytextcolor group-hover:text-primary transition-all duration-300" />
             </Link>
-            <Link className="group w-[2.5rem] h-[2.5rem] rounded-full border-primary border flex justify-center items-center">
-              <BsTwitter className="text-xl text-primarytextcolor group-hover:text-primary transition-all duration-300" />
+            <Link
+              to={companyDetails.x}
+              className="group w-[2.5rem] h-[2.5rem] rounded-full border-primary border flex justify-center items-center"
+            >
+              <FaXTwitter className="text-xl text-primarytextcolor group-hover:text-primary transition-all duration-300" />
             </Link>
-            <Link className="group w-[2.5rem] h-[2.5rem] rounded-full border-primary border flex justify-center items-center">
+            <Link
+              to={companyDetails.linkedin}
+              className="group w-[2.5rem] h-[2.5rem] rounded-full border-primary border flex justify-center items-center"
+            >
               <BsLinkedin className="text-xl text-primarytextcolor group-hover:text-primary transition-all duration-300" />
             </Link>
-            <Link className="group w-[2.5rem] h-[2.5rem] rounded-full border-primary border flex justify-center items-center">
-              <BsYoutube className="text-xl text-primarytextcolor group-hover:text-primary transition-all duration-300" />
+            <Link
+              to={companyDetails.instgram}
+              className="group w-[2.5rem] h-[2.5rem] rounded-full border-primary border flex justify-center items-center"
+            >
+              <AiFillInstagram className="text-xl text-primarytextcolor group-hover:text-primary transition-all duration-300" />
             </Link>
           </div>
         </div>
