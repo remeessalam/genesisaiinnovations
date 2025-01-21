@@ -42,7 +42,7 @@ import gamedevelopment from "./assets/images/services/gamedevelopment.jpg";
 // import blockchaindevelopment from "./assets/images/services/blockchaindevelopment.jpg";
 import machinelearning from "./assets/images/services/machinelearning.jpg";
 import clouddevelopment from "./assets/images/services/clouddevelopment.jpg";
-import rpa from "./assets/images/services/rpa.jpg";
+// import rpa from "./assets/images/services/rpa.jpg";
 import web from "./assets/images/services/web.jpg";
 import app from "./assets/images/services/app.jpg";
 import aboutone from "./assets/images/aboutone.jpg";
@@ -136,7 +136,7 @@ export {
   // blockchaindevelopment,
   machinelearning,
   clouddevelopment,
-  rpa,
+  // rpa,
   contactusbanner,
   aboutusintroone,
   aboutusintrotwo,
