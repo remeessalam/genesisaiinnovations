@@ -1,5 +1,5 @@
 import React from "react";
-import { allServices, serviceswebdevelopment } from "../../../constant";
+import { allServices, iot } from "../../../constant";
 import Testimonials from "../../common/Testimonials";
 
 const IotDevelopment = () => {
@@ -21,7 +21,7 @@ const IotDevelopment = () => {
     <div className="flex flex-col gap-10">
       <img
         data-aos="fade-up"
-        src={serviceswebdevelopment}
+        src={iot}
         loading="lazy"
         className="h-[25rem] object-cover rounded-3xl object-center"
         alt="web development"

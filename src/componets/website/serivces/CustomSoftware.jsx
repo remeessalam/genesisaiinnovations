@@ -1,5 +1,5 @@
 import React from "react";
-import { allServices, serviceswebdevelopment } from "../../../constant";
+import { allServices, custome } from "../../../constant";
 import Testimonials from "../../common/Testimonials";
 
 const CustomSoftware = () => {
@@ -21,7 +21,7 @@ const CustomSoftware = () => {
     <div className="flex flex-col gap-10">
       <img
         data-aos="fade-up"
-        src={serviceswebdevelopment}
+        src={custome}
         loading="lazy"
         className="h-[25rem] object-cover rounded-3xl object-center"
         alt="web development"

@@ -1,5 +1,5 @@
 import React from "react";
-import { allServices, serviceswebdevelopment } from "../../../constant";
+import { allServices, nlp } from "../../../constant";
 import Testimonials from "../../common/Testimonials";
 
 const NaturalLanguageProcessing = () => {
@@ -21,7 +21,7 @@ const NaturalLanguageProcessing = () => {
     <div className="flex flex-col gap-10">
       <img
         data-aos="fade-up"
-        src={serviceswebdevelopment}
+        src={nlp}
         loading="lazy"
         className="h-[25rem] object-cover rounded-3xl object-center"
         alt="web development"

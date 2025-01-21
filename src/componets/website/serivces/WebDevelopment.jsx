@@ -1,5 +1,5 @@
 import React from "react";
-import { allServices, serviceswebdevelopment } from "../../../constant";
+import { allServices, web } from "../../../constant";
 import Testimonials from "../../common/Testimonials";
 
 const WebDevelopment = () => {
@@ -21,7 +21,7 @@ const WebDevelopment = () => {
     <div className="flex flex-col gap-10">
       <img
         data-aos="fade-up"
-        src={serviceswebdevelopment}
+        src={web}
         loading="lazy"
         className="h-[25rem] object-cover rounded-3xl object-center"
         alt="web development"

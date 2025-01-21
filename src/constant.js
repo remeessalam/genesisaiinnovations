@@ -23,15 +23,28 @@ import aboutUsGridImg4 from "./assets/images/aboutus-png4.png";
 import aboutUsGridImg5 from "./assets/images/aboutus-png5.png";
 import profileImg1 from "./assets/images/profileimg-1.jpg";
 import profileImg2 from "./assets/images/profileimg-2.jpg";
-import serviceswebdevelopment from "./assets/images/services/serviceswebdevelopment.jpg";
+import custome from "./assets/images/services/custome.jpg";
+import bigdata from "./assets/images/services/bigdata.jpg";
+import chatbot from "./assets/images/services/chatbot.jpg";
+import computervision from "./assets/images/services/computervision.jpg";
+import security from "./assets/images/services/security.jpg";
+import datascience from "./assets/images/services/datascience.jpg";
+import deveops from "./assets/images/services/deveops.jpg";
+import uiux from "./assets/images/services/uiux.jpg";
 import serviceaidevelopment from "./assets/images/services/serviceaidevelopment.jpg";
-import chatbotdevelopment from "./assets/images/services/chatbotdevelopment.jpg";
+// import serviceswebdevelopment from "./assets/images/services/serviceaidevelopment.jpg";
+import nlp from "./assets/images/services/nlp.jpg";
+import vrar from "./assets/images/services/vrar.jpg";
+import iot from "./assets/images/services/iot.jpg";
+// import chatbotdevelopment from "./assets/images/services/chatbotdevelopment.jpg";
 import datadevelopment from "./assets/images/services/datadevelopment.jpg";
 import gamedevelopment from "./assets/images/services/gamedevelopment.jpg";
-import blockchaindevelopment from "./assets/images/services/blockchaindevelopment.jpg";
+// import blockchaindevelopment from "./assets/images/services/blockchaindevelopment.jpg";
 import machinelearning from "./assets/images/services/machinelearning.jpg";
 import clouddevelopment from "./assets/images/services/clouddevelopment.jpg";
 import rpa from "./assets/images/services/rpa.jpg";
+import web from "./assets/images/services/web.jpg";
+import app from "./assets/images/services/app.jpg";
 import aboutone from "./assets/images/aboutone.jpg";
 import abouttwo from "./assets/images/abouttwo.jpg";
 import aboutthree from "./assets/images/aboutthree.jpg";
@@ -58,7 +71,7 @@ import {
   GiVendingMachine,
 } from "react-icons/gi";
 import { HiChatBubbleBottomCenterText } from "react-icons/hi2";
-import { BsFillClipboard2DataFill } from "react-icons/bs";
+import { BsFillClipboard2DataFill, BsHeadsetVr } from "react-icons/bs";
 import {
   FaAppStoreIos,
   FaDatabase,
@@ -115,12 +128,12 @@ export {
   aboutUsGridImg3,
   aboutUsGridImg4,
   aboutUsGridImg5,
-  serviceswebdevelopment,
+  custome,
   serviceaidevelopment,
-  chatbotdevelopment,
+  // chatbotdevelopment,
   datadevelopment,
   gamedevelopment,
-  blockchaindevelopment,
+  // blockchaindevelopment,
   machinelearning,
   clouddevelopment,
   rpa,
@@ -128,6 +141,19 @@ export {
   aboutusintroone,
   aboutusintrotwo,
   allbgimage,
+  // serviceswebdevelopment,
+  bigdata,
+  chatbot,
+  computervision,
+  security,
+  datascience,
+  deveops,
+  iot,
+  uiux,
+  nlp,
+  vrar,
+  web,
+  app,
 };
 
 // company details
@@ -474,7 +500,7 @@ export const allServices = [
   },
   {
     id: 14,
-    img: <RiVirusLine className="w-6 h-6" />,
+    img: <BsHeadsetVr className="w-6 h-6" />,
     link: "/services/vr-ar-development",
     title: "Virtual Reality (VR) and Augmented Reality (AR) Development",
     desc: "Create immersive experiences with cutting-edge VR and AR solutions tailored to your industry.",

@@ -1,5 +1,5 @@
 import React from "react";
-import { allServices, chatbotdevelopment } from "../../../constant";
+import { allServices, chatbot } from "../../../constant";
 import Testimonials from "../../common/Testimonials";
 
 const ChatbotDevelopment = () => {
@@ -19,7 +19,7 @@ const ChatbotDevelopment = () => {
     <div className="flex flex-col gap-10">
       <img
         data-aos="fade-up"
-        src={chatbotdevelopment}
+        src={chatbot}
         loading="lazy"
         className="h-[25rem] object-cover rounded-3xl object-center"
         alt="web development"
