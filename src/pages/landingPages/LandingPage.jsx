@@ -56,7 +56,7 @@ export const LandingPage = ({ page }) => {
     var payload = {
       to: companyDetails.email,
       // to: "remeesreme4u@gmail.com",
-      subject: "You have a new message from [you company name]",
+      subject: "You have a new message from Genesis AI",
       body: emailBody,
     };
 
@@ -322,7 +322,7 @@ export const LandingPage = ({ page }) => {
               <h2 className="heading-2">Get In Touch With Us!</h2>
               <p className="desc">
                 Get in touch with{" "}
-                <span className="font-semibold">[you company name] </span>
+                <span className="font-semibold">Genesis AI </span>
                 and let us be the catalyst for your digital transformation.
                 Together, we can create solutions that align with your vision,
                 helping your business reach new heights.

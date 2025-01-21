@@ -80,14 +80,13 @@ const AboutUs = () => {
                   data-aos="fade-up"
                   className="text-lg text-start leading-relaxed text-gray-600"
                 >
-                  At [you company name], we specialize in crafting
-                  transformative IT solutions powered by artificial
-                  intelligence. Our expertise lies in addressing unique
-                  challenges and delivering tailored AI-driven services,
-                  ensuring that businesses worldwide thrive in a
-                  technology-first era. With a passionate team of developers,
-                  data scientists, and innovators, we are redefining the future
-                  of IT and unlocking the true potential of AI.
+                  At Genesis AI, we specialize in crafting transformative IT
+                  solutions powered by artificial intelligence. Our expertise
+                  lies in addressing unique challenges and delivering tailored
+                  AI-driven services, ensuring that businesses worldwide thrive
+                  in a technology-first era. With a passionate team of
+                  developers, data scientists, and innovators, we are redefining
+                  the future of IT and unlocking the true potential of AI.
                 </p>
               </div>
 
@@ -172,7 +171,7 @@ const AboutUs = () => {
         <UnlockEfficiency />
         {/* <div className="wrapper mt-[5rem]">
           <h2 data-aos="fade-up" className="heading-2">
-            Why Choose [you company name]?
+            Why Choose Genesis AI?
           </h2>
           <ul className="mt-[2rem] flex flex-col gap-3 list-disc list-outside text-start">
             {whyChooseUsContent.map((item) => (
@@ -203,7 +202,7 @@ const AboutUs = () => {
               data-aos="fade-up"
               className="heading-2 font-bold text-center mb-12 text-black"
             >
-              Why Choose [you company name]?
+              Why Choose Genesis AI?
             </h2>
             <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
               {whyChooseUsContent.map((feature, index) => (
