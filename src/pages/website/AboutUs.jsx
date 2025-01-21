@@ -212,11 +212,11 @@ const AboutUs = () => {
                   className="relative group bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-all duration-300 border border-gray-100"
                 >
                   <div className="flex items-center gap-4 mb-4">
-                    <div className="flex items-center justify-center w-12 h-12 rounded-full bg-orange-100 text-orange-600 group-hover:bg-orange-600 group-hover:text-white transition-colors duration-300">
+                    <div className="flex items-center justify-center w-12 h-12 rounded-full bg-blue-100 text-primary group-hover:bg-primary group-hover:text-blue-100 transition-colors duration-300">
                       {feature.img}
                     </div>
                   </div>
-                  <h3 className="text-xl font-semibold mb-3 text-orange-600">
+                  <h3 className="text-xl font-semibold mb-3 text-primary">
                     {feature.title}
                   </h3>
                   <p className="text-gray-600 leading-relaxed">
