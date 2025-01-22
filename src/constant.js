@@ -8,6 +8,7 @@ import faqPng from "./assets/images/faq-character.png";
 import appDevBanner from "./assets/images/app-dev-banner.jpg";
 import webDevBanner from "./assets/images/web-landing-banner.jpg";
 import webLandingAbout from "./assets/images/web-landing-about1.jpg";
+import crmsolution from "./assets/images/crmsolution.jpg";
 import appLandingAbout from "./assets/images/app-landing-about.jpg";
 import endlessOpportunitiesImg1 from "./assets/images/section-8-img-1.png";
 import endlessOpportunitiesImg2 from "./assets/images/section-8-img-2.png";
@@ -136,6 +137,7 @@ export {
   appDevBanner,
   webDevBanner,
   webLandingAbout,
+  crmsolution,
   appLandingAbout,
   endlessOpportunitiesImg1,
   endlessOpportunitiesImg2,

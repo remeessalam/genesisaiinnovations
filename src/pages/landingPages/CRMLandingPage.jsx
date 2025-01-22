@@ -14,6 +14,7 @@ import {
   webDevBanner,
   crmSolutions,
   webLandingAbout,
+  crmsolution,
 } from "../../constant";
 import { Link as ScrollLink } from "react-scroll";
 import WhyChooseUs from "../../componets/common/WhyChooseUs";
@@ -212,7 +213,7 @@ export const CRMLandingPage = () => {
           </div>
           <div data-aos="fade-left" className="h-full">
             <img
-              src={webLandingAbout}
+              src={crmsolution}
               className="object-contain max-h-[30rem] w-full rounded-lg"
               alt=""
             />
