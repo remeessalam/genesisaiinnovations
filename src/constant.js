@@ -177,7 +177,7 @@ export const companyDetails = {
   phone: "+91 8977035004",
   whatsapp: "8977035004",
   whatsappbox: "8977035004",
-  email: "abc@xya.com",
+  email: "contact@genesisaiinnovations.com",
   address: "Hyderabad, Telangana, India",
   facebook: "https://www.facebook.com/profile.php?id=61552739977445",
   x: "https://x.com/rajiv_jonnakuti?t=S3qf3S9PsOt2a1qiHifeUA&s=08",
