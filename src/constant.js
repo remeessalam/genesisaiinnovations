@@ -75,6 +75,9 @@ import { HiChatBubbleBottomCenterText } from "react-icons/hi2";
 import { BsFillClipboard2DataFill, BsHeadsetVr } from "react-icons/bs";
 import {
   FaAppStoreIos,
+  FaBell,
+  FaChartLine,
+  FaChartPie,
   FaCode,
   FaDatabase,
   FaDesktop,
@@ -85,6 +88,8 @@ import {
   FaMobileAlt,
   FaNetworkWired,
   FaShoppingCart,
+  FaTasks,
+  FaUserFriends,
 } from "react-icons/fa";
 import {
   SiFlutter,
@@ -178,7 +183,7 @@ export const companyDetails = {
   whatsapp: "8977035004",
   whatsappbox: "8977035004",
   email: "contact@genesisaiinnovations.com",
-  address: "Hyderabad, Telangana, India",
+  address: "Sai Surya Enclave, Secunderabad, Hyderabad, 500010, Telangana.",
   facebook: "https://www.facebook.com/profile.php?id=61552739977445",
   x: "https://x.com/rajiv_jonnakuti?t=S3qf3S9PsOt2a1qiHifeUA&s=08",
   linkedin: "https://www.linkedin.com/company/genesis-ai-innovations/",
@@ -240,6 +245,32 @@ export const faqs = [
     question: "What kind of AI solutions do you offer?",
     answer:
       "We provide a wide range of AI solutions, including predictive analytics, natural language processing, computer vision, and custom AI model development tailored to your business needs.",
+  },
+];
+export const crmFAQs = [
+  {
+    id: 1,
+    question: "How can CRM improve my business operations?",
+    answer:
+      "A CRM system organizes customer data, streamlines workflows, and provides actionable insights to enhance productivity and customer relationships.",
+  },
+  {
+    id: 2,
+    question: "What industries can benefit from CRM solutions?",
+    answer:
+      "CRM is ideal for various industries, including e-commerce, real estate, healthcare, and more.",
+  },
+  {
+    id: 3,
+    question: "How secure is the data in your CRM system?",
+    answer:
+      "Our CRM systems implement advanced encryption, regular audits, and compliance with industry standards to ensure maximum data security.",
+  },
+  {
+    id: 4,
+    question: "Can CRM solutions be customized for my business?",
+    answer:
+      "Yes, we specialize in tailoring CRM systems to meet the unique needs and objectives of your business.",
   },
 ];
 
@@ -771,6 +802,58 @@ export const aboutUsItems = [
       "We provide a comprehensive range of services, ensuring end-to-end support from initial concept to deployment and beyond. Our aim is to be your trusted partner throughout your digital journey.",
     image: aboutfive,
     gradient: "from-primary/60 to-primary/80",
+  },
+];
+
+export const crmSolutions = [
+  {
+    id: 1,
+    title: "AI-Powered CRM Solutions for Modern Businesses",
+    img: <FaRobot />,
+    description:
+      "Advanced CRM systems designed to enhance productivity, optimize customer interactions, and provide data-driven insights for sustained business success.",
+  },
+  {
+    id: 2,
+    title: "Customer Data Management",
+    img: <FaDatabase />,
+    description:
+      "Securely store and organize customer data in a centralized system, making it accessible for informed decision-making and personalized service delivery.",
+  },
+  {
+    id: 3,
+    title: "Sales & Marketing Automation",
+    img: <FaChartLine />,
+    description:
+      "Streamline your workflows with automated sales processes and targeted marketing campaigns to improve efficiency and ROI.",
+  },
+  {
+    id: 4,
+    title: "Insightful Analytics",
+    img: <FaChartPie />,
+    description:
+      "Gain deeper customer insights with robust analytics tools, helping you understand customer behavior and identify opportunities for growth.",
+  },
+  {
+    id: 5,
+    title: "Customer Retention Tools",
+    img: <FaUserFriends />,
+    description:
+      "Implement strategies that keep customers engaged and loyal, ensuring a consistent revenue stream.",
+  },
+  {
+    id: 6,
+    title: "Real-Time Updates",
+    img: <FaBell />,
+    description:
+      "Send automated updates for offers and orders, keeping your customers informed and engaged.",
+  },
+  {
+    id: 7,
+    title: "Task & Reminder Automation",
+    img: <FaTasks />,
+    description:
+      "Set reminders for follow-ups and prioritize tasks to maintain strong client relationships without missing deadlines.",
   },
 ];
 

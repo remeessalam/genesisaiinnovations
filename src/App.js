@@ -34,6 +34,7 @@ import CyberSecurity from "./componets/website/serivces/CyberSecurity.jsx";
 import BigDataSolutions from "./componets/website/serivces/BigDataSolutions.jsx";
 import NaturalLanguageProcessing from "./componets/website/serivces/NaturalLanguageProcessing.jsx";
 import ComputerVisionSolutions from "./componets/website/serivces/ComputerVisionSolutions.jsx";
+import { CRMLandingPage } from "./pages/landingPages/CRMLandingPage.jsx";
 
 AOS.init({
   once: true,
@@ -132,6 +133,16 @@ export default function App() {
               <>
                 <LandingHeader />
                 <LandingPage page={"app-development"} />
+                <LandingFooter />
+              </>
+            }
+          />
+          <Route
+            path="/crm-Solution"
+            element={
+              <>
+                <LandingHeader />
+                <CRMLandingPage />
                 <LandingFooter />
               </>
             }
