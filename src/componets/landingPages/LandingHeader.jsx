@@ -65,7 +65,7 @@ const LandingHeader = () => {
           <Link smooth={true} to="banner" className="cursor-pointer">
             <img
               src={logoImg}
-              className="h-[2rem] md:h-[2.75rem] scale-125"
+              className="h-[2rem] md:h-[2.75rem] scale-150"
               alt="logo"
             />
           </Link>

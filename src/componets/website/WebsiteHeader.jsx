@@ -32,7 +32,7 @@ const WebsiteHeader = () => {
 
   return (
     <div
-      className={`pt-6 pb-8 fixed top-0 w-full z-50  transition-all duration-300 bg-white/50 bg-opacity-60 backdrop-blur-md text-black
+      className={`pt-6 pb-8 fixed top-0 w-full z-50  transition-all duration-300 bg-black/50 bg-opacity-60 backdrop-blur-md text-white
         `}
     >
       {/* ${
@@ -45,7 +45,7 @@ const WebsiteHeader = () => {
           <Link to="/">
             <img
               src={logoImg}
-              className="h-[2rem] md:h-[2.75rem] ml-5 scale-125"
+              className="h-[2rem] md:h-[2.75rem] ml-5 scale-150"
               alt="logo"
             />
           </Link>
